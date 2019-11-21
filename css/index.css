@@ -1,0 +1,198 @@
+/******* Base Styles *******/
+html, body {
+  height: 100%;  
+}
+
+body {
+  font-size: 7em;
+  background: #ed7864;  
+  color: #262626;
+   background-position: top center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed;
+}
+#optt1{
+	 font-size : 0.3em;
+}
+#optt2{
+	 font-size : 0.3em;
+}
+#optt3{
+	 font-size : 0.3em;
+}
+div.a {
+  line-height: 0.8;
+}
+
+div.b {
+  line-height: 0.6;
+}
+
+div.c {
+  line-height: normal;
+}
+
+p {
+ 
+   line-height: 1.3em;
+  margin-bottom : 10px;
+  margin-top :10px;
+   margin-left:100px;
+}
+
+.qPanel{
+    margin:auto;
+    width:800px;
+    vertical-align: center;
+    margin:0 auto;
+    background-color: #79B96A ;
+    border: none ;
+    border-radius : 10px ;
+    padding: 20px ;
+    height: 160px ;
+    font-size: 15pt;
+}
+.ques{
+    font-size : 18pt;
+    font-weight: bold ;
+}
+.nxtBtn{
+    position: relative ;
+    right : 10px ;
+    float: right;
+    border:none ;
+    font-size: 18pt ;
+    background-color: #348322  ;
+    color: #ffffff ;
+    width: 80px ;
+    height: 35px ;
+}
+
+img{
+	  margin-left:150px;
+	
+}
+#im{
+	
+margin-left:15px;
+	
+
+	}
+
+
+p1 {
+  line-height: 2.3em;
+}
+
+button {
+  background: #56BFB5;
+  
+}
+/******* Main Styles *******/
+
+#result{
+	  margin-left:135px;
+	
+	
+}
+#try-screen {
+  display: none;
+  text-align: center;
+}
+
+#try-screen, #working-screen {
+  vertical-align: middle;
+}
+
+#final-score {
+  font-size: 0.6em;
+}
+
+#restart-button {
+  font-size: 0.5em;
+/*  display: none;*/
+}
+
+#display {
+  margin: 3% auto;
+  min-width: 200px;
+  max-width: 400px;
+  float: none;
+  background: #d7ec86;
+  border-radius: 10px;
+  height: 400px;
+}
+
+#progressbar {
+  width: 90%;
+  height: 20px;
+  background: white;
+  border-radius: 10px;
+}
+
+#controls {
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  
+}
+
+#controls button {
+  background: #56BFB5;
+  width: 90px;
+  height:32px;
+  margin: 1%;
+  margin-bottom:50px;
+  
+  margin-top:80px;
+  
+}
+
+
+#tick {
+  color: green;
+
+}
+
+#cross {
+  color: red;
+  margin-top: 0;
+
+}
+
+#score {
+  font-size: 0.7em;
+  float: none;
+  margin-left: 30px;
+}
+
+/******* Pseudoclass Styles *******/
+
+/******* Layout Styles *******/
+
+/******* Media Queries *******/
+@media (max-width: 600px) {
+  body {
+    font-size: 5em;
+  }
+  
+  #display {
+      height: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    font-size: 4em;
+    margin-top: 120px;
+  }
+  
+  #display {
+      height: 300px;
+  }
+ /* #display {
+    margin-top: 20%;
+    min-width: 80%;
+    min-height: 70%;
+  }*/
+}

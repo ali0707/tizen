@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, minimal-ui">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+<link rel="apple-touch-startup-image" href="images/apple-touch-startup-image-640x920.png">
+<title>mobili - mobile template</title>
+<link rel="stylesheet" href="css/swiper.css">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,900" rel="stylesheet"> 
+</head>
+<body id="mobile_wrap"  onload="generateCaptcha();">
+
+    <div class="panel-overlay"></div>
+    
+    <div class="views">
+    
+      <div class="view view-main" >
+        <div class="swiper-slide" style="background-image:url(images/slide3.jpg);">
+        
+<div class="content-block">
+
+            <h4>LOGIN</h4>
+
+            <div class="loginform">
+                
+				<input type="text" class="form_input required"  id="mainCaptcha"readonly="readonly"/> 
+					
+            <tr>
+               <td><span id="error" style="color:red"></span></td>
+            </tr>
+            <tr>
+               <td><span id="success" style="color:green"></span></td>
+            </tr>
+                  
+      			<!-- <input type="text" class="form_input required"  placeholder="Captcha" id="cpatchaTextBox"/>  -->
+
+                    <input type="text" id="txtInput"  class="form_input required" placeholder="Captcha" />
+					
+                    <input type="submit" name="submit"  class="form_submit" id="submit" value="Enter our world" onclick = "CheckValidCaptcha()"/>
+					<input type="button"  id="submit"  class="form_submit" value="Refresh" onclick = "generateCaptcha()" />	 
+            </div>
+            <div class="close_popup_button">
+                <a href="index.html" class="close-popup" data-popup=".popup-login"><img src="images/icons/black/menu_close.png" alt="" title="" /></a>
+            </div>
+        </div>
+      </div>
+    </div>   
+    </div>
+    
+    
+    </body>  
+      
+ <script src="js/user.js" type="text/javascript"></script>
+ <script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.validate.min.js" ></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/jquery.custom.js"></script>
+</html>
